@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6921C5DC2AE1FB6F007D3908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6921C5DB2AE1FB6F007D3908 /* AppDelegate.swift */; };
+		6921C5DE2AE1FB6F007D3908 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6921C5DD2AE1FB6F007D3908 /* ContentView.swift */; };
+		6921C5E22AE1FB73007D3908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6921C5E12AE1FB73007D3908 /* Assets.xcassets */; };
+		6921C5E52AE1FB73007D3908 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6921C5E42AE1FB73007D3908 /* Preview Assets.xcassets */; };
+		6921C5EF2AE1FB73007D3908 /* MaskVRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6921C5EE2AE1FB73007D3908 /* MaskVRTests.swift */; };
+		6921C5F92AE1FB73007D3908 /* MaskVRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6921C5F82AE1FB73007D3908 /* MaskVRUITests.swift */; };
+		6921C5FB2AE1FB73007D3908 /* MaskVRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6921C5FA2AE1FB73007D3908 /* MaskVRUITestsLaunchTests.swift */; };
+		6921C6082AE1FBDF007D3908 /* Mask.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 6921C6072AE1FBDF007D3908 /* Mask.rcproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6921C5EB2AE1FB73007D3908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6921C5D02AE1FB6F007D3908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6921C5D72AE1FB6F007D3908;
+			remoteInfo = MaskVR;
+		};
+		6921C5F52AE1FB73007D3908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6921C5D02AE1FB6F007D3908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6921C5D72AE1FB6F007D3908;
+			remoteInfo = MaskVR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6921C5D82AE1FB6F007D3908 /* MaskVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6921C5DB2AE1FB6F007D3908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6921C5DD2AE1FB6F007D3908 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6921C5E12AE1FB73007D3908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6921C5E42AE1FB73007D3908 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6921C5EA2AE1FB73007D3908 /* MaskVRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskVRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6921C5EE2AE1FB73007D3908 /* MaskVRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskVRTests.swift; sourceTree = "<group>"; };
+		6921C5F42AE1FB73007D3908 /* MaskVRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskVRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6921C5F82AE1FB73007D3908 /* MaskVRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskVRUITests.swift; sourceTree = "<group>"; };
+		6921C5FA2AE1FB73007D3908 /* MaskVRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskVRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6921C6072AE1FBDF007D3908 /* Mask.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Mask.rcproject; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6921C5D52AE1FB6F007D3908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6921C5E72AE1FB73007D3908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6921C5F12AE1FB73007D3908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6921C5CF2AE1FB6F007D3908 = {
+			isa = PBXGroup;
+			children = (
+				6921C5DA2AE1FB6F007D3908 /* MaskVR */,
+				6921C5ED2AE1FB73007D3908 /* MaskVRTests */,
+				6921C5F72AE1FB73007D3908 /* MaskVRUITests */,
+				6921C5D92AE1FB6F007D3908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6921C5D92AE1FB6F007D3908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6921C5D82AE1FB6F007D3908 /* MaskVR.app */,
+				6921C5EA2AE1FB73007D3908 /* MaskVRTests.xctest */,
+				6921C5F42AE1FB73007D3908 /* MaskVRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6921C5DA2AE1FB6F007D3908 /* MaskVR */ = {
+			isa = PBXGroup;
+			children = (
+				6921C5DB2AE1FB6F007D3908 /* AppDelegate.swift */,
+				6921C5DD2AE1FB6F007D3908 /* ContentView.swift */,
+				6921C6072AE1FBDF007D3908 /* Mask.rcproject */,
+				6921C5E12AE1FB73007D3908 /* Assets.xcassets */,
+				6921C5E32AE1FB73007D3908 /* Preview Content */,
+			);
+			path = MaskVR;
+			sourceTree = "<group>";
+		};
+		6921C5E32AE1FB73007D3908 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6921C5E42AE1FB73007D3908 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6921C5ED2AE1FB73007D3908 /* MaskVRTests */ = {
+			isa = PBXGroup;
+			children = (
+				6921C5EE2AE1FB73007D3908 /* MaskVRTests.swift */,
+			);
+			path = MaskVRTests;
+			sourceTree = "<group>";
+		};
+		6921C5F72AE1FB73007D3908 /* MaskVRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6921C5F82AE1FB73007D3908 /* MaskVRUITests.swift */,
+				6921C5FA2AE1FB73007D3908 /* MaskVRUITestsLaunchTests.swift */,
+			);
+			path = MaskVRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6921C5D72AE1FB6F007D3908 /* MaskVR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6921C5FE2AE1FB73007D3908 /* Build configuration list for PBXNativeTarget "MaskVR" */;
+			buildPhases = (
+				6921C5D42AE1FB6F007D3908 /* Sources */,
+				6921C5D52AE1FB6F007D3908 /* Frameworks */,
+				6921C5D62AE1FB6F007D3908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaskVR;
+			productName = MaskVR;
+			productReference = 6921C5D82AE1FB6F007D3908 /* MaskVR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6921C5E92AE1FB73007D3908 /* MaskVRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6921C6012AE1FB73007D3908 /* Build configuration list for PBXNativeTarget "MaskVRTests" */;
+			buildPhases = (
+				6921C5E62AE1FB73007D3908 /* Sources */,
+				6921C5E72AE1FB73007D3908 /* Frameworks */,
+				6921C5E82AE1FB73007D3908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6921C5EC2AE1FB73007D3908 /* PBXTargetDependency */,
+			);
+			name = MaskVRTests;
+			productName = MaskVRTests;
+			productReference = 6921C5EA2AE1FB73007D3908 /* MaskVRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6921C5F32AE1FB73007D3908 /* MaskVRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6921C6042AE1FB73007D3908 /* Build configuration list for PBXNativeTarget "MaskVRUITests" */;
+			buildPhases = (
+				6921C5F02AE1FB73007D3908 /* Sources */,
+				6921C5F12AE1FB73007D3908 /* Frameworks */,
+				6921C5F22AE1FB73007D3908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6921C5F62AE1FB73007D3908 /* PBXTargetDependency */,
+			);
+			name = MaskVRUITests;
+			productName = MaskVRUITests;
+			productReference = 6921C5F42AE1FB73007D3908 /* MaskVRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6921C5D02AE1FB6F007D3908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6921C5D72AE1FB6F007D3908 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					6921C5E92AE1FB73007D3908 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6921C5D72AE1FB6F007D3908;
+					};
+					6921C5F32AE1FB73007D3908 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6921C5D72AE1FB6F007D3908;
+					};
+				};
+			};
+			buildConfigurationList = 6921C5D32AE1FB6F007D3908 /* Build configuration list for PBXProject "MaskVR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6921C5CF2AE1FB6F007D3908;
+			productRefGroup = 6921C5D92AE1FB6F007D3908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6921C5D72AE1FB6F007D3908 /* MaskVR */,
+				6921C5E92AE1FB73007D3908 /* MaskVRTests */,
+				6921C5F32AE1FB73007D3908 /* MaskVRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6921C5D62AE1FB6F007D3908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6921C5E52AE1FB73007D3908 /* Preview Assets.xcassets in Resources */,
+				6921C5E22AE1FB73007D3908 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6921C5E82AE1FB73007D3908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6921C5F22AE1FB73007D3908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6921C5D42AE1FB6F007D3908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6921C6082AE1FBDF007D3908 /* Mask.rcproject in Sources */,
+				6921C5DE2AE1FB6F007D3908 /* ContentView.swift in Sources */,
+				6921C5DC2AE1FB6F007D3908 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6921C5E62AE1FB73007D3908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6921C5EF2AE1FB73007D3908 /* MaskVRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6921C5F02AE1FB73007D3908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6921C5FB2AE1FB73007D3908 /* MaskVRUITestsLaunchTests.swift in Sources */,
+				6921C5F92AE1FB73007D3908 /* MaskVRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6921C5EC2AE1FB73007D3908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6921C5D72AE1FB6F007D3908 /* MaskVR */;
+			targetProxy = 6921C5EB2AE1FB73007D3908 /* PBXContainerItemProxy */;
+		};
+		6921C5F62AE1FB73007D3908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6921C5D72AE1FB6F007D3908 /* MaskVR */;
+			targetProxy = 6921C5F52AE1FB73007D3908 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6921C5FC2AE1FB73007D3908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6921C5FD2AE1FB73007D3908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6921C5FF2AE1FB73007D3908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"MaskVR/Preview Content\"";
+				DEVELOPMENT_TEAM = XV2X26M98W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comyorgidelrio.MaskVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6921C6002AE1FB73007D3908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"MaskVR/Preview Content\"";
+				DEVELOPMENT_TEAM = XV2X26M98W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comyorgidelrio.MaskVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6921C6022AE1FB73007D3908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XV2X26M98W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comyorgidelrio.MaskVRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaskVR.app/MaskVR";
+			};
+			name = Debug;
+		};
+		6921C6032AE1FB73007D3908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XV2X26M98W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comyorgidelrio.MaskVRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaskVR.app/MaskVR";
+			};
+			name = Release;
+		};
+		6921C6052AE1FB73007D3908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XV2X26M98W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comyorgidelrio.MaskVRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaskVR;
+			};
+			name = Debug;
+		};
+		6921C6062AE1FB73007D3908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XV2X26M98W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comyorgidelrio.MaskVRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaskVR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6921C5D32AE1FB6F007D3908 /* Build configuration list for PBXProject "MaskVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6921C5FC2AE1FB73007D3908 /* Debug */,
+				6921C5FD2AE1FB73007D3908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6921C5FE2AE1FB73007D3908 /* Build configuration list for PBXNativeTarget "MaskVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6921C5FF2AE1FB73007D3908 /* Debug */,
+				6921C6002AE1FB73007D3908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6921C6012AE1FB73007D3908 /* Build configuration list for PBXNativeTarget "MaskVRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6921C6022AE1FB73007D3908 /* Debug */,
+				6921C6032AE1FB73007D3908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6921C6042AE1FB73007D3908 /* Build configuration list for PBXNativeTarget "MaskVRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6921C6052AE1FB73007D3908 /* Debug */,
+				6921C6062AE1FB73007D3908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6921C5D02AE1FB6F007D3908 /* Project object */;
+}
